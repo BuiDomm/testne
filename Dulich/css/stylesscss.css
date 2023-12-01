@@ -1,0 +1,111 @@
+.left--banner {
+    margin: -15px;
+}
+.bannerRight {
+    width: 100%;
+    object-fit: cover;
+}
+.right--banner {
+    margin-left: 15px;
+    margin-top: -35px;
+}
+.favorite--place {
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+    margin-left: -15px;
+    border-bottom: 3px solid rgba(0, 157, 255, 0.5);
+}
+.img--item {
+    aspect-ratio: 1;
+}
+
+.title--img {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+}
+.row.favorite-item:first-of-type {
+    margin-top: 15px;
+}
+.favorite-item {
+    margin-top: 25px;
+}
+.title--hotel {
+    color: rgb(54, 210, 189);
+    opacity: 0.9;
+}
+.img--hotel-1 {
+    margin-left: 120px;
+}
+.img--hotel-1,
+.img--hotel-2 {
+    margin-top: 12px;
+}
+.hotel--block {
+    position: relative;
+}
+.name--hotel {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.heading-tb {
+    font-size: 18px;
+}
+.heading-tb th {
+    text-align: center;
+    color: green;
+}
+.tb-dt td {
+    font-size: 15px;
+    color: orange;
+}
+.footer {
+    padding: 15px 0;
+    background-color: rgb(17, 184, 162);
+    line-height: 1.8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.famous {
+    position: relative;
+}
+.title--hotel-1 {
+}
+
+@media screen and (max-width: 768px) {
+    .left--banner {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .right--banner {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .title--hotel {
+        font-size: 23px;
+    }
+    .img--hotel-1 {
+        margin-left: 0;
+    }
+    .title--hotel {
+    }
+    .table-width {
+    }
+    .heading-tb {
+        font-size: 12px;
+    }
+    .tb-dt td {
+        font-size: 13px;
+    }
+}
